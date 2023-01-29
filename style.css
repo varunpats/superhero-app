@@ -1,0 +1,56 @@
+body {
+    padding: 50px;
+    margin: 0;
+    font-family: Inter;
+    background-color: #000;
+    color: #fff;
+}
+
+#superhero {
+    border: none;
+    padding: 10px;
+    width: 60%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+h2,
+h3 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+}
+
+#display {
+    margin-top: 50px;
+    flex-direction: row;
+}
+
+.favBtn,
+#searchBtn {
+    height: 40px;
+    border: none;
+    padding: 12px 40px;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
